@@ -1,0 +1,27 @@
+{
+  "id": "did:web:github.com:dayongY:testTrustVC",
+  "verificationMethod": [
+    {
+      "type": "Multikey",
+      "id": "did:web:github.com:dayongY:testTrustVC#keys-1",
+      "controller": "did:web:github.com:dayongY:testTrustVC",
+      "publicKeyMultibase": "zDnaetwfpDoGqrzXsZ6K1eDV9uAmXyNZSVEtN9umYNLizsnG1"
+    }
+  ],
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/multikey/v1"
+  ],
+  "authentication": [
+    "did:web:github.com:dayongY:testTrustVC#keys-1"
+  ],
+  "assertionMethod": [
+    "did:web:github.com:dayongY:testTrustVC#keys-1"
+  ],
+  "capabilityInvocation": [
+    "did:web:github.com:dayongY:testTrustVC#keys-1"
+  ],
+  "capabilityDelegation": [
+    "did:web:github.com:dayongY:testTrustVC#keys-1"
+  ]
+}
